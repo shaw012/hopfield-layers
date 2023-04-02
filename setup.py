@@ -1,7 +1,7 @@
 import setuptools
 
 with open(r'README.md', mode=r'r') as readme_handle:
-    long_description = readme_handle.read()
+    long_description = readme_handle.read('utf-8')
 
 setuptools.setup(
     name=r'hopfield-layers',
